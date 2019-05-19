@@ -1,0 +1,24 @@
+GET http://localhost:8080/hello?name=Felipe
+Accept: application/json
+
+###
+
+GET http://localhost:8080/photos
+Accept: application/json
+
+###
+
+POST http://localhost:8080/photos
+Content-Type: application/json
+
+{
+  "id": "123",
+  "uri": "hello"
+}
+
+###
+
+GET http://localhost:8080/image/d199ab5a-5717-4c2b-927b-ce6476f89df8
+Accept: application/octet-stream
+
+###
